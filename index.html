@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<title>Situação da franquia — Reinan dos Santos Teles</title>
+<style>
+  :root { --azul:#0055FF; --navy:#080E32; --coral:#FC6058; --cinza:#5b6275; --linha:#e3e7f0; --fundo:#f6f8fc; --verde:#1a8a4a; --amarelo:#b7791f; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:"Segoe UI",Arial,sans-serif; color:var(--navy); background:#fff; line-height:1.5; }
+  .wrap { max-width:980px; margin:0 auto; padding:32px 28px 48px; }
+  header { border-bottom:3px solid var(--azul); padding-bottom:14px; margin-bottom:24px; }
+  h1 { margin:0 0 4px; font-size:26px; }
+  .sub { color:var(--cinza); font-size:14px; }
+  h2 { font-size:18px; margin:32px 0 10px; color:var(--azul); }
+  .tiles { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+  .tile { background:var(--fundo); border:1px solid var(--linha); border-radius:10px; padding:14px; }
+  .tile .n { font-size:26px; font-weight:700; }
+  .tile .t { font-size:13px; color:var(--cinza); }
+  table { width:100%; border-collapse:collapse; font-size:14px; margin-top:6px; }
+  th { text-align:left; background:var(--fundo); color:var(--cinza); font-weight:600; padding:8px 10px; border-bottom:1px solid var(--linha); }
+  td { padding:8px 10px; border-bottom:1px solid var(--linha); vertical-align:top; }
+  .tag { display:inline-block; padding:2px 8px; border-radius:20px; font-size:12px; font-weight:600; }
+  .ok { background:#e5f5ec; color:var(--verde); }
+  .warn { background:#fdf3e1; color:var(--amarelo); }
+  .bad { background:#feeceb; color:#c0362e; }
+  .neutro { background:#eef1f7; color:var(--cinza); }
+  .box { border-left:4px solid var(--azul); background:var(--fundo); padding:12px 16px; border-radius:6px; margin:12px 0; }
+  .box.alerta { border-color:var(--coral); }
+  blockquote { margin:8px 0; padding:8px 14px; border-left:3px solid var(--linha); color:#333; font-style:italic; background:#fafbfd; }
+  ul { margin:6px 0; padding-left:20px; }
+  .rodape { margin-top:36px; font-size:12px; color:var(--cinza); border-top:1px solid var(--linha); padding-top:12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Reinan dos Santos Teles — situação da franquia</h1>
+  <div class="sub">Código SSA-003-ITP · host 296 no Sapron · levantamento de 09/11/2026 · motivo: dois chamados de ocorrência abertos (37880 e 37881) que, se pontuados, fecham multa</div>
+</header>
+
+<h2>Resumo</h2>
+<div class="tiles">
+  <div class="tile"><div class="n">~3 meses</div><div class="t">de operação: recebeu o primeiro imóvel em 07/07 e o primeiro hóspede em 31/07</div></div>
+  <div class="tile"><div class="n">5 + 7</div><div class="t">5 imóveis ativos e 7 em implantação (12 no total), porte P, limiar de 8 pontos</div></div>
+  <div class="tile"><div class="n">59</div><div class="t">reservas que já fizeram check-in, em 5 imóveis diferentes</div></div>
+  <div class="tile"><div class="n">8 / 8</div><div class="t">pontos se os dois chamados forem pontuados (4 cada), o que fecha uma multa de R$ 250</div></div>
+</div>
+
+<div class="box alerta">
+  <b>Conclusão:</b> se os dois chamados forem pontuados, a franquia chega a 8 pontos, exatamente o limiar do porte P, e fecha uma multa por acúmulo de R$ 250. Seriam as duas primeiras ocorrências da franquia: no Sapron não existe nenhum outro chamado de ocorrência para ela. Se só o 37880 (VMS0008) for pontuado, ele fica com 4 de 8 pontos, já dentro do aviso de iminência (faltam 4 pontos).
+</div>
+
+<h2>1. Desde quando está ativo</h2>
+<table>
+  <tr><th>Data</th><th>Marco</th></tr>
+  <tr><td>11/05/2026</td><td>Cadastro do franqueado no Sapron (contrato assinado; franquia ativa, sem data de inativação)</td></tr>
+  <tr><td>07/07/2026</td><td>Primeiro imóvel transferido para ele (DLO0405, vindo do host 140)</td></tr>
+  <tr><td>29/07/2026</td><td>Primeiro imóvel ativado (DLO0606)</td></tr>
+  <tr><td>31/07/2026</td><td>Primeiro hóspede (DLO0606)</td></tr>
+  <tr><td>09/10/2026</td><td>EPI0409 passou dele para outra franquia (host 310) durante a implantação</td></tr>
+  <tr><td>23/10 a 06/11</td><td>Seis imóveis novos entraram em implantação em duas semanas, ou seja, está crescendo rápido</td></tr>
+</table>
+<p>Ele acessou o Sapron pela última vez em 08/11/2026.</p>
+
+<h2>2. Imóveis e hóspedes</h2>
+<table>
+  <tr><th>Imóvel</th><th>Status</th><th>Ativado em</th><th>Check-ins já feitos</th><th>Primeiro hóspede</th><th>Reservas canceladas</th></tr>
+  <tr><td>DLO0606</td><td><span class="tag ok">Ativo</span></td><td>29/07</td><td>30</td><td>31/07</td><td>14</td></tr>
+  <tr><td>DLO2108</td><td><span class="tag ok">Ativo</span></td><td>30/07</td><td>7</td><td>01/08</td><td>7</td></tr>
+  <tr><td>VMS0008</td><td><span class="tag ok">Ativo</span></td><td>27/08</td><td>11</td><td>29/08</td><td>4</td></tr>
+  <tr><td>DLO0401</td><td><span class="tag ok">Ativo</span></td><td>14/10</td><td>8</td><td>17/10</td><td>5</td></tr>
+  <tr><td>VCO0001</td><td><span class="tag ok">Ativo</span></td><td>19/10</td><td>3</td><td>23/10</td><td>6</td></tr>
+  <tr><td>DLO0405</td><td><span class="tag warn">Implantação</span></td><td>—</td><td>0</td><td>—</td><td>—</td></tr>
+  <tr><td>TBO0022, LIT0308, OCT1010, LIT0802, ENV0204, DLO1404</td><td><span class="tag warn">Implantação</span></td><td>—</td><td>0</td><td>—</td><td>—</td></tr>
+</table>
+<p>Ou seja, ele já recebeu hóspedes: são 59 check-ins desde 31/07, metade deles no DLO0606. O DLO0405 está em implantação desde 07/07, há 4 meses, e o chamado de implantação dele segue em andamento.</p>
+
+<p><b>Avaliações registradas na Nekt</b> (via Sapron): no Airbnb, quase todas são nota 5. As exceções são duas notas 4 no DLO0606 em 19/08, uma nota 0 e uma nota 1 no DLO0401 em 27/10, e uma nota 2 do Booking no VCO0001 em 05/11. Nenhuma tem comentário. Há linhas duplicadas na tabela, e as notas 0 e 1 podem ser o mesmo registro ou uma avaliação sem nota: <b>convém conferir antes de citar</b>. Isso contraria em parte o que ele escreveu no chamado: “só recebemos nota 4 uma vez”.</p>
+
+<h2>3. Treinamentos</h2>
+<table>
+  <tr><th>Convite (Central de Atividades)</th><th>Data</th><th>Ciência dele</th></tr>
+  <tr><td>Treinamento Quinzenal — Consistência Vence Intensidade</td><td>27/07</td><td><span class="tag ok">27/07</span></td></tr>
+  <tr><td>Treinamento Quinzenal — Inteligência Artificial na Prática (2 convites)</td><td>21/08 e 25/08</td><td><span class="tag ok">21/08 e 25/08</span></td></tr>
+  <tr><td>Treinamento Quinzenal — Reforma Tributária</td><td>07/09</td><td><span class="tag ok">07/09</span></td></tr>
+  <tr><td>Reforço: Salas de Área — Franchise Academy</td><td>08/09</td><td><span class="tag ok">08/09</span></td></tr>
+  <tr><td>Treinamento Quinzenal — Taxa de Limpeza</td><td>06/10</td><td><span class="tag ok">06/10</span></td></tr>
+  <tr><td>Treinamento Quinzenal — Tela de Manutenção (+ errata)</td><td>19/10</td><td><span class="tag ok">19/10</span></td></tr>
+  <tr><td>Treinamento Quinzenal — Sistema de Vistoria (convite, adiamento e lembrete)</td><td>02/11 a 05/11</td><td><span class="tag ok">02, 03 e 05/11</span></td></tr>
+</table>
+<p>Ele deu ciência em todos os convites de treinamento desde que entrou, sempre no mesmo dia ou no dia seguinte. Nunca recebeu chamado de falta em treinamento (3.1). <b>Limite:</b> o Sapron registra a ciência do convite, não a presença na aula. O treinamento de integração (Franchise Academy) não fica registrado no Sapron. Para confirmar presença, é preciso pedir a lista ao time de Treinamento ou à Universidade.</p>
+
+<h2>4. Os dois chamados de ocorrência</h2>
+<table>
+  <tr><th>Chamado</th><th>Imóvel</th><th>Checkout do hóspede</th><th>Dano lançado</th><th>Dias após o checkout</th><th>Prazo de 14 dias</th></tr>
+  <tr><td>37880</td><td>VMS0008</td><td>18/10</td><td>02/11</td><td>15</td><td><span class="tag bad">Fora</span></td></tr>
+  <tr><td>37881</td><td>DLO0606</td><td>19/10</td><td>02/11</td><td>14</td><td><span class="tag warn">No limite</span> (depende de contar ou não o dia do checkout)</td></tr>
+</table>
+<p>Os dois foram abertos pela automação em 03/11 às 20h17 (subcategoria 7.2, “lançamento de danos fora do prazo”: grave, 4 pontos, eixo Hóspede & Imóvel, acumula para multa). Ele respondeu os dois em 30 minutos.</p>
+
+<p><b>37880 (VMS0008):</b> ele admite o atraso.</p>
+<blockquote>“Sinto muito pelo decurso do prazo. inevitavelmente passamos um dia do tempo hábil. Há algo que possamos fazer para trazer uma resolução sem impactos?”</blockquote>
+
+<p><b>37881 (DLO0606):</b> primeiro contestou, dizendo que lançou no 14º dia. Depois voltou atrás, em 05/11, após falar com a Juliana do atendimento:</p>
+<blockquote>“[...] ela me informou que houve sim decurso do prazo, pois a contagem começa a partir do dia. [...] como franquia ainda em período de integração, esse ponto de lançamento do dano ainda não tinha fixado na minha mente [...] estou ameaçado de sofrer um stop de crescimento [...] somos franquia em integração com 5 imóveis ativos [...] nosso score é 122.46”</blockquote>
+
+<p>Nenhum dos dois traz justificativa que caiba no padrão: pelo padrão, desconhecer o prazo resulta em aviso formal, e um impedimento só vale se tiver sido levado ao suporte antes do vencimento. Os dois chamados estão em andamento, sem resposta da Seazone, aguardando a diretoria.</p>
+
+<h2>5. Vira multa?</h2>
+<table>
+  <tr><th>Regra</th><th>Situação do Reinan</th><th>Efeito</th></tr>
+  <tr><td>Limiar por porte (E1): imóveis ativos + em implantação</td><td>12 imóveis, porte P (até 30)</td><td>Limiar de 8 pontos</td></tr>
+  <tr><td>Piso de 5 imóveis (C2): abaixo de 5 ativos, a franquia fica fora da multa</td><td>Exatamente 5 ativos</td><td><span class="tag warn">Entra, no limite</span>: se um imóvel for inativado, ele sai da régua de multa</td></tr>
+  <tr><td>Trava de maturidade (C1): exige mais de 3 meses e imóvel com ocupação</td><td>Não se aplica: em 13/08 ficou decidido que ela cobre só 7.1 e 8.1, não o 7.2</td><td>Não protege</td></tr>
+  <tr><td>Só o eixo Hóspede & Imóvel acumula (D2)</td><td>7.2 é Hóspede & Imóvel</td><td>Gera multa, não <b>stop de crescimento</b> (o stop vem do eixo Conformidade)</td></tr>
+  <tr><td>Janela de 90 dias</td><td>Nenhuma outra ocorrência comunicada a ele no Sapron</td><td>Só os dois chamados contam</td></tr>
+  <tr><td>Valor da multa por acúmulo</td><td>—</td><td>R$ 250</td></tr>
+</table>
+
+<table style="margin-top:14px">
+  <tr><th>Cenário</th><th>Pontos</th><th>Resultado</th></tr>
+  <tr><td>Os dois pontuados</td><td>8 / 8</td><td><span class="tag bad">Fecha multa de R$ 250</span></td></tr>
+  <tr><td>Só o 37880 pontuado (o 37881 aceito por estar no 14º dia)</td><td>4 / 8</td><td><span class="tag warn">Iminência</span>: entra no aviso, faltando 4 pontos</td></tr>
+  <tr><td>Nenhum pontuado</td><td>0 / 8</td><td><span class="tag ok">Sem efeito</span></td></tr>
+</table>
+
+<h2>Pontos de atenção para a decisão</h2>
+<ul>
+  <li><b>A contagem do prazo não está definida:</b> não está escrito se o dia do checkout conta. O 37881 só está fora do prazo se o dia do checkout contar.</li>
+  <li><b>Os dois chamados são do mesmo dia e do mesmo erro:</b> os dois danos foram lançados em 02/11. Desde 21/08, cada 7.2 vale 4 pontos e não se agrupam (caso Sônia), então a regra vigente soma os 8.</li>
+  <li><b>O “stop de crescimento” que ele cita vem do MGO</b> e não sai da régua: o 7.2 leva a multa, não a stop. A regra do MGO não é conhecida aqui.</li>
+  <li><b>No histórico ele aparece cumpridor:</b> deu ciência de todos os treinamentos e respondeu rápido aos chamados, inclusive ao de dano 37770, no qual mandou a foto pedida em 6 minutos.</li>
+</ul>
+
+<div class="rodape">
+  Fontes: Sapron (account_host, property_property, property_host_time_in_property, reservation_reservation, reservation_nekt_review, franchise_communication_activity, mensagens e ciência dos comunicados), consultado em 09/11/2026; documento “Regras de negócio — ocorrências e multas” (régua v2). O app de ocorrências (cards e <i>v_acumulador_franquia</i>) não pôde ser lido hoje porque o acesso pelo MCP do Lovable está desautorizado. Porte e pontos foram calculados pela régua, não lidos da tela do app.
+</div>
+
+</div>
+</body>
+</html>
